@@ -1,0 +1,9 @@
+[package]
+name = "simple_ecc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+p3-goldilocks = { git = "https://github.com/Plonky3/Plonky3.git" }
+p3-field = { git = "https://github.com/Plonky3/Plonky3.git" }
+rand = "0.8.5"
